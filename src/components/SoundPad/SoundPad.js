@@ -34,7 +34,7 @@ const SoundPad = ({ bank, volume, setRecord }) => {
         <audio id={bank.keyTrigger} src={bank.url} className="clip" />
         {bank.keyTrigger}
       </div>
-    )
+    ) 
   }
 
   export default SoundPad;
